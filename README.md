@@ -1,7 +1,7 @@
 # VoiceCommander
 Blender Python - Control Blender with your Voice
 
-- Experimental -
+__Experimental__
 
 It depends on a number of python packages that do not come pre-installed with Blender, SpeechRecognition depends on PyAudio, which depends on PortAudio, which must be built to be run, and PyAudio is not compatible with Python 3.10 that ships with Blender. 
 
