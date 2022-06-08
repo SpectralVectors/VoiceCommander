@@ -5,7 +5,7 @@ def initialsetup():
     string = bpy.app.version_string
     blenderversion = string.rstrip(string[-2:])
 
-    packages = ["pipwin", "SpeechRecognition", "word2number"]
+    packages = ["pipwin", "SpeechRecognition"]
 
     subprocess.check_call([
         sys.executable, 
