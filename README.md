@@ -13,7 +13,7 @@ You can open the System Console to monitor the progress of the package downloads
 
 ### YOU MUST RUN BLENDER AS ADMINISTRATOR TO BE ABLE TO REGISTER THE ADDON, OTHERWISE YOU WILL ONLY GET AN ERROR MESSAGE!
 
-This will allow you to issue a single voice command, currently limited to the following commands:
+This will allow you to issue a single voice command, currently includes:
 
 - "Delete Object"
 - "Add Cube"
@@ -24,5 +24,21 @@ This will allow you to issue a single voice command, currently limited to the fo
 - "Object Mode"
 - "Select All"
 - "Deselect"
+- "Undo"
+- "Redo"
+- "Render Image"
+- "Render Animation"
+- "Play"
+- "Stop"
+- "Go To Frame _"
+- "Move X _"
+- "Move Y _"
+- "Move Z _"
+- "Rotate X _"
+- "Rotate Y _"
+- "Rotate Z _"
+- "Scale X _"
+- "Scale Y _"
+- "Scale Z _"
 
-The script is currently designed to stop listening after 1 second, you can change that value in the code, and it will likely be exposed to adjustment when the script morphs into an addon.
+The script is currently designed to stop listening after 2 seconds, you can change that value in the code, but it is not yet exposed to user editing.
